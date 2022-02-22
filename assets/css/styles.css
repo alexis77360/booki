@@ -28,7 +28,7 @@ header {
 #logo {
   height: 70px;
   margin-top: 10px;
-  margin-left: -26px;
+  margin-left: 40px;
 }
 
 .menu {
@@ -276,7 +276,11 @@ a:hover {
   padding-top: 20px;
   width: 35%;
 }
-
+.wrap-titre{
+display: flex;
+justify-content: space-between;
+margin-right: 20px;
+}
 
 .populaire {
   font-size: 24px;
@@ -287,8 +291,9 @@ a:hover {
 }
 
 .courbe {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 700;
+  margin: auto;
 }
 
 .card2 {
@@ -397,6 +402,41 @@ a:hover {
 
 }
 
+/*! Footer */
+
+footer {
+  background-color: #f2f2f2;
+  ;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 60px;
+}
+
+.wrapper-foot{
+  display: flex;
+  margin-left: 3%;
+  margin-right: 3%;
+  justify-content: space-between;
+}
+
+
+ul{
+  padding-left: 0px;
+}
+
+li{
+  list-style-type: none;
+  margin-top: 8px;
+}
+
+
+footer h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+footer a:hover{
+  transition: 500ms;
+  color: #0065FC;}
 
 
 /* !! Responsive Tablette */
@@ -406,6 +446,8 @@ a:hover {
 @media (max-width: 991px) {
   .activite-list {
     display: block;
+    height: auto;
+
   }
 
   #activite .activite-list .column {
@@ -501,6 +543,35 @@ a:hover {
     width: auto;
   }
 
+  .wrapper-foot{
+    flex-direction: column ;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  
+  
+  ul{
+    padding-left: 0px;
+  }
+  
+  li{
+    list-style-type: none;
+    margin-top: 8px;
+  }
+
+  footer h3{
+    margin-left: 0px;
+  }
+
+  
+
+
+
+
+
+
+
+
 
 }
 
@@ -556,6 +627,6 @@ a:hover {
     width: 50px;
     border-style: hidden;
   }
-
+ 
 
 }
