@@ -155,6 +155,9 @@ h2 {
   margin-right: 20px;
   margin-top: 17px;
 }
+.titre-filtre{
+  width: 100%;
+}
 
 .wrapper--info {
   display: flex;
@@ -227,6 +230,8 @@ h4 {
   font-size: 16px;
   font-weight: 700;
   margin-left: 5px;
+  margin-top: 1px;
+  margin-bottom: 6px;
 }
 
 a {
@@ -252,7 +257,7 @@ a:hover {
 .card-stars {
   margin-left: 5px;
   margin-top: 5px;
-  margin-bottom: 5px;
+  font-size: 12px;
 }
 
 .stars-blue {
@@ -276,10 +281,11 @@ a:hover {
   padding-top: 20px;
   width: 35%;
 }
-.wrap-titre{
-display: flex;
-justify-content: space-between;
-margin-right: 20px;
+
+.wrap-titre {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
 }
 
 .populaire {
@@ -332,10 +338,11 @@ margin-right: 20px;
 .card-stars2 {
   margin-top: 44px;
   margin-left: 5px;
+  font-size: 12px;
 }
 
 .last-img {
-  margin-bottom: -60px;
+  margin-bottom: -77px;
 }
 
 .last-stars {
@@ -371,6 +378,7 @@ margin-right: 20px;
   border-radius: 25px 25px 0px 0px;
 }
 
+
 /*? Taille des cards pour 1 col */
 
 .activite-list .column article {
@@ -382,6 +390,15 @@ margin-right: 20px;
 /*? Taille des cards pour les 2 cols */
 .activite-list .column.double article {
   height: 48%;
+}
+
+/* !espacement différent pour pomegues et frioul */
+.activite-list .column.double .pom {
+  height: 56%;
+}
+
+.activite-list .column.double .frioul {
+  height: 40%;
 }
 
 #activite h3 {
@@ -412,19 +429,22 @@ footer {
   margin-top: 60px;
 }
 
-.wrapper-foot{
+.wrapper-foot {
   display: flex;
   margin-left: 3%;
   margin-right: 3%;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
+.foot {
+  width: 33%;
+}
 
-ul{
+ul {
   padding-left: 0px;
 }
 
-li{
+li {
   list-style-type: none;
   margin-top: 8px;
 }
@@ -434,9 +454,11 @@ footer h3 {
   font-size: 18px;
   font-weight: 700;
 }
-footer a:hover{
+
+footer a:hover {
   transition: 500ms;
-  color: #0065FC;}
+  color: #0065FC;
+}
 
 
 /* !! Responsive Tablette */
@@ -500,9 +522,6 @@ footer a:hover{
     margin-right: 6px;
   }
 
-  h2 {
-    width: 100vw;
-  }
 
   h3 {
     margin: 10px;
@@ -538,33 +557,46 @@ footer a:hover{
     order: 1;
     margin-bottom: 30px;
   }
+  .activite-list .column.double .pom {
+    height: 400px;
+  }
+
+  .activite-list .column.double .frioul {
+    height: 400px;
+  }
 
   .card2 {
     width: auto;
   }
 
-  .wrapper-foot{
-    flex-direction: column ;
+  .wrapper-foot {
+    flex-direction: column;
     margin-left: 3%;
     margin-right: 3%;
   }
-  
-  
-  ul{
+
+
+  ul {
     padding-left: 0px;
   }
-  
-  li{
+
+  li {
     list-style-type: none;
     margin-top: 8px;
   }
 
-  footer h3{
+  footer h3 {
     margin-left: 0px;
   }
 
-  
 
+  .foot {
+    width: 100%;
+  }
+
+  footer {
+    padding-left: 3%;
+  }
 
 
 
@@ -627,6 +659,6 @@ footer a:hover{
     width: 50px;
     border-style: hidden;
   }
- 
+
 
 }
