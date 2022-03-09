@@ -215,7 +215,7 @@ h3 {
 }
 
 .card1:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   transition: 1000ms;
 }
 
@@ -318,7 +318,7 @@ a:hover {
 }
 
 .card2:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   transition: 1000ms;
 }
 
@@ -612,7 +612,25 @@ footer a:hover {
     padding-left: 3%;
   }
 
+  #main{
+    margin: 0;
+  }
 
+  .head
+  {
+    padding-left: 3%;
+    padding-right:3%;
+  }
+.wrapper--1
+{
+  padding-left: 3%;
+  padding-right:3%;
+}
+#activite
+{
+  padding-left: 3%;
+  padding-right:3%;
+}
 
 
 
