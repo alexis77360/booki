@@ -1,4 +1,6 @@
-Projet OpenClassrooms. L'objectif est d'intégrer la maquette d'un site web en HTML et CSS.
+#Projet OpenClassrooms 2#
+
+L'objectif est d'intégrer la maquette d'un site web en HTML et CSS.
 
 Spécifications techniques
 
